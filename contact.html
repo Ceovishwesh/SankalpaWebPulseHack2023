@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Viva</title>
+    <style>
+    body{
+     font-family: 'Archivo Black', sans-serif;
+     padding: 0;
+     margin: 0;
+    }
+     .container{
+         width: 100%;
+         height: 500px;
+         padding: 0;
+         margin: 0;
+         display: inline-block;
+        }
+    .heading{
+        grid-area: 1/2/-1/4; 
+     }
+     .box{
+        height: 300px;
+        width: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 4fr;
+        padding-left: 100px;
+     }
+     .first{
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color:  #DEDED7;
+        
+     }
+     .gradient1{
+        grid-area: 2/1/4/3;
+        background: conic-gradient( #ffaf7b ,#d76d77, #3a1c71)
+     }
+     
+     .mainhead1{
+        color:  #1C0F71;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+     }
+     .second{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #28115C;
+     }
+    
+     .gradient2{
+        grid-area: 2/1/4/3;
+        background: repeating-linear-gradient(#b60f46 ,#d592ff);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+     }
+     .mainhead2{
+        color:  #DCD7B4;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+     }
+     .third{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #DCD7B4;
+     }
+     
+     
+     .gradient3{
+        grid-area: 2/1/4/3;
+        background: linear-gradient(to right, #741d2c00, #B6A0F4,#0D0D88);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+     }
+     .mainhead3{
+        color:  white;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+     }
+     .ending{
+      background-color: #DCD7B4;
+     }
+     a{
+      text-decoration: none;
+     }
+
+
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>   
+<div class="first container">
+    <div class="box">
+      <div class="gradient1"></div>
+      <div class="heading"><a href="./dasaradhresume.html "><h1 class="mainhead1">Dasaradh</h1></a></div>
+    </div>
+</div>  
+
+<div class="second container">
+    <div class="box">
+        <div class="gradient2"></div>
+        <div class="heading"><a href="./vishweshresume.html"><h1 class="mainhead2">Vishwesh</h1></a></div>
+
+    </div>
+</div> 
+
+<div class="third container">
+    <div class="box">
+        <div class="gradient3"></div>
+        <div class="heading"><a href="./vasanthresume.html"><h1 class="mainhead3">Vasanth</h1></a></div>
+
+    </div>
+</div> 
+<div class="ending">
+<hr />
+    <a href="./contacts.html" >Contact us</a> 
+<footer>
+   <small>
+       Copyright © 2023 All Rights Reserved.
+   </small>
+  </footer>
+</div>
+</body>
+</html>
